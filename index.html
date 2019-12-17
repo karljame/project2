@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
     <title>Queen</title>
 </head>
 <body>
@@ -14,21 +15,31 @@
    <header id="showcase" class="grid">
     <div class="big-img"></div>
     <div class="content-wrap">
-        <nav class="navitem">
-            <ul>
-                <li>
-                    <a href="http://">Albums</a>
-                </li>
-                <li>
-                    <a href="http://">Members</a>
-                </li>
-                <li>
-                    <a href="http://">About</a>
-                </li>
+        <nav>
+            <span id="brand">
+              <a href="javascript:;">Queen</a>
+            </span>
+            <ul id="menu">
+              <li><a href="javascript:;">HOME</a></li>
+              <li><a href="javascript:;">ABOUT</a></li>
+              <li><a href="javascript:;">CONTACT</a></li>
             </ul>
-        </nav>
-
-        </div>
+          
+            <div id="toggle">
+              <div class="span" id="one"></div>
+              <div class="span" id="two"></div>
+              <div class="span" id="three"></div>
+            </div>
+          </nav>
+          
+          <div id="resize">
+            <ul id="menu">
+              <li><a href="javascript:;">HOME</a></li>
+              <li><a href="javascript:;">ABOUT</a></li>
+              <li><a href="javascript:;">CONTACT</a></li>
+              <li><a href="javascript:;">FAQ</a></li>
+            </ul>
+          </div>
         
    </header>
 
@@ -84,6 +95,10 @@
       
 
    </main>
-    
+   <script
+   src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+   integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+   crossorigin="anonymous"></script>
+   <script src="js/main.js"></script>
 </body>
 </html>

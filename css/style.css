@@ -9,36 +9,6 @@ body {
     
 }
 
-.navitem {
-    width: 100%;
-    max-width: 960px;
-    margin: 20px;
-    
-}
-
-.navitem ul{
-    width: 100%;
-    list-style: none;
-}
-
-.navitem li{
-    width: 20%;
-    float: right;
-    
-}
-
-.navitem a{
-    text-align: center;
-    padding: 8px 0;
-    display: block;
-    width: 100%;
-    color: aqua;
-    text-decoration: none;
-    font-size: 1.5em;
-    justify-content: center;
-    
-}
-
 img {
     display: block;
     width: 100%;
