@@ -1,6 +1,10 @@
+html {
+    box-sizing: border-box;
+  }
 
-  *:before,
-  *:after {
+*,
+*:before,
+*:after{
     box-sizing: inherit;
     padding: 0;
     margin: 0;
@@ -34,7 +38,7 @@
   
   nav #menu {
     float: left;
-    left: 15%;
+    left: 20%;
     position: relative;
   }
   
@@ -110,10 +114,10 @@
   #resize #menu li {
     display: block;
     text-align: center;
-    padding: 20px 0;
+    padding: 50px 0;
     text-align: center;
-    font-size: 50px;
-    min-height: 50px;
+    font-size: 20px;
+    min-height: 30px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease-out;
@@ -134,7 +138,7 @@
   
   #resize.active {
     visibility: visible;
-    opacity: 0.99;
+    opacity: 0.5;
   }
   
   @media (max-width: 700px) {
