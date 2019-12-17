@@ -13,7 +13,7 @@ body {
 img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 50vh;
 }
 
 h1, h2 ,h3 {
@@ -34,7 +34,7 @@ p {
 
 #showcase .big-img {
     position: absolute;
-    background: #333 url('http://www.jugi3.ch/homepage/queen/made_in_heaven_poster.jpg');
+    background: #333 url('https://www.udiscovermusic.com/wp-content/uploads/2019/07/Queen-mid-70s-approved-photo-04-web-optimised-1000-1.jpg');
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,11 +45,13 @@ p {
 }
 
 #showcase .logo{
-    position: absolute;
-    background-position: center;
+    text-align: center;
     background: url();
 }
 
+#section-1{
+    padding: 1.5em;
+}
 #section-2 {
     padding: 2em 1em 1em;
 }
@@ -78,10 +80,15 @@ p {
         grid-template-columns: 1fr repeat(2, minmax(auto, 35em)) 1fr ;
     }
 
-    .content-wrap{
+    #section-1 .content-text {
+        columns: 1;
+        justify-content: center;
+        margin: 0 15em; 
+    }
+    .content-wrap, .content-text{
         grid-column: 2/4;
     }
-    #section-2 ul, .navitem {
+    #section-2 ul {
         display: flex;
         justify-content: space-around;
     }
