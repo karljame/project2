@@ -20,6 +20,7 @@ body {
 h1,
 h2,
 h3 {
+  font-size: 1.7em;
   margin: 0em;
   padding: 1em 0;
 }
@@ -35,6 +36,7 @@ h1 {
 }
 
 p {
+  font-size: 1.5em;
   margin: 0;
   padding: 1em 0;
 }
@@ -156,9 +158,6 @@ p {
 .time-title {
   color: white;
   background-color: #6e0707;
-  font-family: "Oswald", Georgia, Cambria, "Times New Roman", Times, serif;
-  font-weight: 300;
-  font-size: 1rem;
   padding: 1em;
 }
 .time-title:before {
