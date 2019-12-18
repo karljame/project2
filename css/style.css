@@ -12,7 +12,9 @@ body {
 .card img {
   display: block;
   width: 100%;
-  height: 400px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
 }
 
 h1,
@@ -204,7 +206,7 @@ p {
     .timeline {
       display: grid;
       grid-gap: 0 4.75em;
-      grid-template-areas: ".  entry1" "entry2  ." ". entry3" "entry4 ." ". entry5";
+      grid-template-areas: ".  entry1" "entry2  ." ". entry3" "entry4 ." ". entry5"  "entry6  ." ". entry7" "entry8 ." ". entry9" "entry10 ." ". entry11" "entry12 ." ". entry13";
     }
     .timeline:before {
       left: 49.5%;
@@ -224,6 +226,30 @@ p {
     }
     .time-entry:nth-child(5) {
       grid-area: entry5;
+    }
+    .time-entry:nth-child(6) {
+      grid-area: entry6;
+    }
+    .time-entry:nth-child(7) {
+      grid-area: entry7;
+    }
+    .time-entry:nth-child(8) {
+      grid-area: entry8;
+    }
+    .time-entry:nth-child(9) {
+      grid-area: entry9;
+    }
+    .time-entry:nth-child(10) {
+      grid-area: entry10;
+    }
+    .time-entry:nth-child(11) {
+      grid-area: entry11;
+    }
+    .time-entry:nth-child(12) {
+      grid-area: entry12;
+    }
+    .time-entry:nth-child(13) {
+      grid-area: entry13;
     }
     .time-entry:nth-of-type(odd):before {
       left: -3.8em;
