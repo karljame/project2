@@ -42,10 +42,22 @@ h1 {
   text-decoration: underline;
 }
 
+h5{
+  margin: 0em;
+  padding: 1em 0;
+}
+
 p {
   font-size: 1.5em;
   margin: 0;
   padding: 1em 0;
+}
+
+#ftr{
+  min-height: 5vh;
+  background-color: #070404;
+  color: #fff;
+  text-align: center;
 }
 
 #showcase {
@@ -126,7 +138,9 @@ p {
   }
   #section-2 p {
     text-align: left;
+
   }
+  
 }
 
 #section-3 {
