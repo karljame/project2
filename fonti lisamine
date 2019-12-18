@@ -1,5 +1,0 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
-:root {
-    box-sizing: border-box;
-    font-family: 'Cinzel', serif;
-}
