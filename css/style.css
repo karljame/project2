@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cinzel&display=swap");
 :root {
-    box-sizing: border-box;
-    font-family: 'Cinzel', serif;
+  box-sizing: border-box;
+  font-family: "Cinzel", serif;
 }
 
 body {
@@ -22,8 +22,6 @@ body {
   position: relative;
   overflow: hidden;
   padding: 1em;
-  
-
 }
 
 h1,
@@ -126,7 +124,7 @@ p {
   #section-2 li {
     width: 22%;
   }
-  #section-2 p{
+  #section-2 p {
     text-align: left;
   }
 }
@@ -217,7 +215,7 @@ p {
     .timeline {
       display: grid;
       grid-gap: 0 4.75em;
-      grid-template-areas: ".  entry1" "entry2  ." ". entry3" "entry4 ." ". entry5"  "entry6  ." ". entry7" "entry8 ." ". entry9" "entry10 ." ". entry11" "entry12 ." ". entry13" "entry14 .";
+      grid-template-areas: ".  entry1" "entry2  ." ". entry3" "entry4 ." ". entry5" "entry6  ." ". entry7" "entry8 ." ". entry9" "entry10 ." ". entry11" "entry12 ." ". entry13" "entry14 .";
     }
     .timeline:before {
       left: 49.5%;
