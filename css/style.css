@@ -21,6 +21,8 @@ body {
   height: 300px;
   position: relative;
   overflow: hidden;
+  padding: 1em;
+  
 
 }
 
@@ -122,7 +124,7 @@ p {
   }
 
   #section-2 li {
-    width: 20%;
+    width: 22%;
   }
   #section-2 p{
     text-align: left;
